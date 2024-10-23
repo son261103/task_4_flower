@@ -49,7 +49,7 @@ def predict_flower(img_path, model, pca, label_encoder):
     return None
 
 # Đường dẫn ảnh cần dự đoán
-img_path = '118974357_0faa23cce9_n.jpg'  # Thay đổi đường dẫn thành ảnh bạn muốn dự đoán
+img_path = 'images.jpg'  # Thay đổi đường dẫn thành ảnh bạn muốn dự đoán
 
 # Chọn mô hình bạn muốn sử dụng (SVM, KNN, hoặc Decision Tree)
 model_to_use = svm_model  # Bạn có thể đổi thành knn_model hoặc dt_model
